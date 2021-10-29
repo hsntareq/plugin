@@ -1,0 +1,72 @@
+.DS_Store
+.ds_store
+.idea
+.vscode
+.vscode/*
+*.code-workspace
+.history
+.history/*
+node_modules/
+vendor/
+build
+node_modules
+package-lock.json
+composer.lock
+!.gitignore
+# ignore all files starting with .
+.*
+languages
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track .editorconfig file (i.e. do NOT ignore it)
+!.editorconfig
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
+
+# ignore all files that start with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore build folder
+build/
+# ignore map files
+*.map
+assets/css/sponsor.css.map
+assets/css/sponsor.min.css.map
+assets/js/lib.js.map
+assets/js/sponsor.js.map
+.prettierignore
+sponsor-portal.json
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

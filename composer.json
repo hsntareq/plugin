@@ -1,0 +1,19 @@
+{
+    "name": "biodrop/sponsors",
+    "description": "biodrop sponsors portal",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Sponsors\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hasan Tareq",
+            "email": "hsntareq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
