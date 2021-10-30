@@ -28,14 +28,14 @@ var prefixerOptions = {
 
 var scss_blueprints = {
   sponsors_scss: {
-    src: "assets/scss/sponsor.scss",
+    src: "assets/scss/sponsors.scss",
     mode: "expanded",
-    destination: "sponsor.css",
+    destination: "sponsors.css",
   },
   sponsors_scss_min: {
-    src: "assets/scss/sponsor.scss",
+    src: "assets/scss/sponsors.scss",
     mode: "compressed",
-    destination: "sponsor.min.css",
+    destination: "sponsors.min.css",
   },
 };
 
